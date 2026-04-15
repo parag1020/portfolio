@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parag Patel Cyber | SOC Analyst Portfolio | Cybersecurity India</title>
+  <meta name="description"
+    content="Parag Patel – Cybersecurity Enthusiast & Future SOC Analyst from India. Integrated M.Sc. Cyber Security student. Real projects: Encryption App, Steganography Tool, CyberGuard." />
+  <meta name="keywords"
+    content="Parag Patel Cyber, Cybersecurity Student India, Ethical Hacker Portfolio, Parag Patel SOC Analyst, Integrated MSc Cyber Security, Parag Patel GitHub, parag1020, paragpatelcyber" />
+  <meta name="author" content="Parag Patel" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://paragpatelcyber.com/" />
+  <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE" />
+
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23020408' stroke='%2300d4ff' stroke-width='1.5'/%3E%3Ctext x='16' y='21' text-anchor='middle' font-family='monospace' font-size='14' fill='%2300d4ff'%3E⬡%3C/text%3E%3C/svg%3E"
+    type="image/svg+xml" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Parag Patel Cyber | Cybersecurity Portfolio" />
+  <meta property="og:description"
+    content="Parag Patel – Cybersecurity Enthusiast & Future SOC Analyst. Real security tools, digital forensics, and threat intelligence projects." />
+  <meta property="og:url" content="https://paragpatelcyber.com" />
+  <meta property="og:image" content="https://paragpatelcyber.com/og-image.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Parag Patel Cyber | Cybersecurity Portfolio" />
+  <meta name="twitter:description" content="Cybersecurity Enthusiast | Future SOC Analyst | India" />
+
+  <!-- Schema -->
+  <script
+    type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Parag Patel","alternateName":"Parag Patel Cyber","url":"https://paragpatelcyber.com","jobTitle":"Cybersecurity Enthusiast & Future SOC Analyst","description":"Integrated M.Sc. Cyber Security student from India (2024-2029) building real security tools and mastering SOC analysis, SIEM, and digital forensics.","knowsAbout":["Cybersecurity","SOC Analysis","SIEM","Python","Wireshark","Wazuh","Digital Forensics","Steganography","Encryption"],"sameAs":["https://github.com/parag1020","https://www.linkedin.com/in/parag-patel-9593742a7"],"email":"paragpateld1020@gmail.com"}</script>
+
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#00d4ff" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="sp"></div>
+  <div id="cur"></div>
+  <div id="cur-ring"></div>
+  <div id="toast">✓ Copied!</div>
+
+  <!-- VOICE INTRO OVERLAY -->
+  <div id="voice-overlay">
+    <div class="vo-title">WELCOME TO<br><em>PARAG PATEL'S CYBER WORLD</em></div>
+    <div class="vo-wave">
+      <div class="vo-bar"></div>
+      <div class="vo-bar"></div>
+      <div class="vo-bar"></div>
+      <div class="vo-bar"></div>
+      <div class="vo-bar"></div>
+      <div class="vo-bar"></div>
+      <div class="vo-bar"></div>
+      <div class="vo-bar"></div>
+    </div>
+    <div id="vo-typed"><span class="cb"></span></div>
+    <button class="vo-skip" id="vo-skip">↓ Enter Site</button>
+  </div>
+
+  <!-- VOICE TOGGLE -->
+  <button id="voice-btn" title="Toggle voice">🔊</button>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="tb">
+      <div class="thdr">
+        <div class="td r"></div>
+        <div class="td y"></div>
+        <div class="td g"></div>
+        <span>paragpatelcyber.com — bash — 80×24</span>
+      </div>
+      <div id="ll"></div>
+      <div class="lb-wrap">
+        <div class="lb-row"><span>INITIALIZING SECURE ENVIRONMENT</span><span id="lp">0%</span></div>
+        <div class="lb">
+          <div class="lbf" id="lbf"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CANVASES -->
+  <canvas id="gc"></canvas>
+  <canvas id="pc"></canvas>
+
+  <!-- MOBILE -->
+  <div class="mob-bd" id="bd"></div>
+  <div class="mob-menu" id="mm">
+    <a href="#about" class="mlink"><span>01</span>About</a>
+    <a href="#skills" class="mlink"><span>02</span>Skills</a>
+    <a href="#projects" class="mlink"><span>03</span>Projects</a>
+    <a href="#github" class="mlink"><span>04</span>GitHub</a>
+    <a href="#terminal-sec" class="mlink"><span>05</span>Terminal</a>
+    <a href="#timeline" class="mlink"><span>06</span>Journey</a>
+    <a href="#contact" class="mlink"><span>07</span>Contact</a>
+  </div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <a href="#hero" class="nl">PARAG<em>CYBER</em></a>
+    <ul class="nlinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#github">GitHub</a></li>
+      <li><a href="#terminal-sec">Terminal</a></li>
+      <li><a href="#timeline">Journey</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button class="htgl" id="hb">⚡ HACK</button></li>
+      <li>
+        <div class="nav-status">
+          <div class="nav-status-dot"></div>SECURE
+        </div>
+      </li>
+      <li><span class="nav-voice-wave paused" id="nav-wave"><span class="nvw-b"></span><span class="nvw-b"></span><span
+            class="nvw-b"></span><span class="nvw-b"></span><span class="nvw-b"></span></span></li>
+    </ul>
+    <div class="hbg" id="hbg"><span></span><span></span><span></span></div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div id="hero-bg-glow"></div>
+    <div class="hex" style="top:10%;left:2%;transform:rotate(-12deg);font-size:9px;opacity:.04">
+      01001000<br>01100001<br>01100011<br>01101011</div>
+    <div class="hex" style="top:10%;right:2%;transform:rotate(12deg);font-size:9px;opacity:.04">53 4F 43<br>41 4E
+      41<br>4C 59 53<br>54 20 20</div>
+
+    <!-- THREE.JS CANVAS -->
+    <canvas id="three-canvas"></canvas>
+
+    <!-- HERO TEXT -->
+    <div class="hero-top">
+      <div class="status-badge">
+        <div class="sdot"></div>&nbsp;System Secure ✔ · All Systems Online
+      </div>
+      <div class="hero-greet">$ sudo whoami → Namaste(); I'm</div>
+      <h1 class="hero-name"><span class="gw gtext" data-text="Parag Patel"><span class="gtext">Parag Patel</span></span>
+      </h1>
+      <div class="hero-sub"><span id="typed"></span><span class="cb"></span></div>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-p">⚡ Projects</a>
+        <a href="#contact" class="btn btn-s">◎ Contact Me</a>
+        <a href="Parag_Patel_Cybersecurity_Resume.pdf" class="btn btn-g" target="_blank">↓ Resume</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hs">
+          <div class="hs-num">3</div>
+          <div class="hs-label">REAL PROJECTS</div>
+        </div>
+        <div class="hs">
+          <div class="hs-num">2024</div>
+          <div class="hs-label">DEGREE START</div>
+        </div>
+        <div class="hs">
+          <div class="hs-num">SOC</div>
+          <div class="hs-label">TARGET ROLE</div>
+        </div>
+        <div class="hs">
+          <div class="hs-num">5+</div>
+          <div class="hs-label">TOOLS ACTIVE</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FULL-WIDTH SHOWCASE -->
+    <div class="hero-showcase">
+      <div class="hero-float fl-a"><strong>247</strong><span style="font-size:9px;color:var(--ng)">Threats
+          Blocked</span></div>
+      <div class="hero-float fl-b"><strong style="color:var(--ng)">99.8%</strong><span style="font-size:9px">System
+          Uptime</span></div>
+      <div class="hero-float fl-c"><strong>AES-256</strong><span style="font-size:9px;color:var(--t2)">Encryption
+          Active</span></div>
+      <div class="hero-float fl-d"><strong style="color:var(--ng)">LIVE</strong><span style="font-size:9px">SOC
+          Monitoring</span></div>
+
+      <div class="showcase-chrome" id="showcase-chrome">
+        <div class="sc-titlebar">
+          <div class="sc-dots">
+            <div class="sc-dot r"></div>
+            <div class="sc-dot y"></div>
+            <div class="sc-dot g"></div>
+          </div>
+          <div class="sc-tabs">
+            <div class="sc-tab active">SOC Dashboard</div>
+            <div class="sc-tab">Threat Intel</div>
+            <div class="sc-tab">Network Map</div>
+          </div>
+          <div class="sc-url"><span class="sc-url-lock">🔒</span><span>paragpatelcyber.com/soc-dashboard</span></div>
+          <div
+            style="font-family:var(--mono);font-size:10px;color:var(--ng);display:flex;align-items:center;gap:5px;white-space:nowrap">
+            <span
+              style="width:6px;height:6px;background:var(--ng);border-radius:50%;display:inline-block;animation:pulse 1.5s infinite"></span>LIVE
+          </div>
+        </div>
+        <div class="sc-body">
+          <!-- LEFT SIDEBAR -->
+          <div class="sc-sidebar">
+            <div class="sc-sidebar-logo">PARAG<em>CYBER</em></div>
+            <div class="sc-nav-item active">
+              <div class="sc-nav-dot green"></div>SOC Overview
+            </div>
+            <div class="sc-nav-item">
+              <div class="sc-nav-dot blue"></div>Threat Intel
+            </div>
+            <div class="sc-nav-item">
+              <div class="sc-nav-dot red"></div>Incidents<span
+                style="margin-left:auto;background:rgba(255,51,102,.2);color:var(--nr);font-size:8px;padding:1px 5px;border-radius:2px">3</span>
+            </div>
+            <div class="sc-nav-item">
+              <div class="sc-nav-dot blue"></div>Network Map
+            </div>
+            <div class="sc-nav-item">
+              <div class="sc-nav-dot dim"></div>SIEM Logs
+            </div>
+            <div class="sc-nav-item">
+              <div class="sc-nav-dot green"></div>Forensics
+            </div>
+            <div class="sc-nav-item">
+              <div class="sc-nav-dot dim"></div>Compliance
+            </div>
+            <div class="sc-nav-item">
+              <div class="sc-nav-dot blue"></div>Reports
+            </div>
+            <div style="margin-top:auto;padding:12px 16px;border-top:1px solid rgba(0,212,255,.08)">
+              <div style="font-family:var(--mono);font-size:9px;color:var(--t2)">Analyst</div>
+              <div style="font-family:var(--mono);font-size:10px;color:var(--nb);margin-top:2px">Parag Patel</div>
+              <div
+                style="width:6px;height:6px;background:var(--ng);border-radius:50%;display:inline-block;margin-top:4px">
+              </div>
+            </div>
+          </div>
+          <!-- MAIN CONTENT -->
+          <div class="sc-main">
+            <div class="sc-stats-row">
+              <div class="sc-stat">
+                <div class="sc-stat-val red" id="kpi-threats">247</div>
+                <div class="sc-stat-lbl">THREATS BLOCKED</div>
+                <div class="sc-stat-delta">↑ +18 today</div>
+              </div>
+              <div class="sc-stat">
+                <div class="sc-stat-val green">99.8%</div>
+                <div class="sc-stat-lbl">SYSTEM UPTIME</div>
+                <div class="sc-stat-delta">▲ Nominal</div>
+              </div>
+              <div class="sc-stat">
+                <div class="sc-stat-val yellow" id="kpi-alerts">12</div>
+                <div class="sc-stat-lbl">OPEN ALERTS</div>
+                <div class="sc-stat-delta neg">↑ +4 last hour</div>
+              </div>
+              <div class="sc-stat">
+                <div class="sc-stat-val green">94</div>
+                <div class="sc-stat-lbl">SECURITY SCORE</div>
+                <div class="sc-stat-delta">▲ +2 pts</div>
+              </div>
+            </div>
+            <div class="sc-map"><canvas class="sc-map-canvas" id="net-canvas-new"></canvas></div>
+            <div class="sc-alerts" id="sc-alert-area">
+              <div class="sc-alert-row crit">
+                <div class="sc-alert-time">14:22:01</div><span>🔴 CRITICAL: Brute force attempt on SSH —
+                  192.168.1.42</span>
+              </div>
+              <div class="sc-alert-row warn">
+                <div class="sc-alert-time">14:21:44</div><span>⚠ WARN: Unusual DNS query pattern detected — endpoint
+                  #17</span>
+              </div>
+              <div class="sc-alert-row ok">
+                <div class="sc-alert-time">14:21:12</div><span>✔ OK: Firewall rule updated — 14 new ACLs loaded</span>
+              </div>
+              <div class="sc-alert-row info">
+                <div class="sc-alert-time">14:20:58</div><span>ℹ INFO: Nmap scan completed — 254 hosts enumerated</span>
+              </div>
+            </div>
+          </div>
+          <!-- RIGHT PANEL -->
+          <div class="sc-right">
+            <div>
+              <div class="sc-panel-title">Threat Severity</div>
+              <div class="sc-threat-item">SQL Injection<span class="sc-threat-badge high">HIGH</span></div>
+              <div class="sc-threat-item">XSS Vector<span class="sc-threat-badge high">HIGH</span></div>
+              <div class="sc-threat-item">Port Scan<span class="sc-threat-badge med">MED</span></div>
+              <div class="sc-threat-item">Weak TLS<span class="sc-threat-badge low">LOW</span></div>
+              <div class="sc-threat-item">CVE-2024-001<span class="sc-threat-badge med">MED</span></div>
+            </div>
+            <div class="sc-gauge">
+              <div class="sc-panel-title" style="align-self:flex-start">Threat Level</div>
+              <svg viewBox="0 0 100 60" width="100" height="60">
+                <path d="M10,50 A40,40 0 0,1 90,50" fill="none" stroke="rgba(0,212,255,.15)" stroke-width="8"
+                  stroke-linecap="round" />
+                <path d="M10,50 A40,40 0 0,1 90,50" fill="none" stroke="url(#grd)" stroke-width="8"
+                  stroke-linecap="round" stroke-dasharray="125" stroke-dashoffset="35" />
+                <defs>
+                  <linearGradient id="grd" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#00ff88" />
+                    <stop offset="60%" stop-color="#ffaa00" />
+                    <stop offset="100%" stop-color="#ff3366" />
+                  </linearGradient>
+                </defs>
+                <text x="50" y="48" text-anchor="middle" fill="#00d4ff" font-size="12" font-family="Orbitron">72</text>
+                <text x="50" y="56" text-anchor="middle" fill="#7ba7bc" font-size="5" font-family="Share Tech Mono">/
+                  100</text>
+              </svg>
+            </div>
+            <div class="sc-panel-title">Live Terminal</div>
+            <div class="sc-terminal" id="sc-term-out">
+              <div style="color:var(--ng)">$ wazuh-agent status</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="sw">
+      <div class="sh rv">
+        <div class="stag">// WHO AM I</div>
+        <h2 class="st">ABOUT <span class="acc">ME</span></h2>
+        <div class="sline"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text rv">
+          <p>I'm <strong>Parag Patel</strong>, a cybersecurity enthusiast from India pursuing an <strong>Integrated
+              M.Sc. in Cyber Security</strong> (2024–2029) with a laser-focused goal: become a world-class SOC Analyst.
+          </p>
+          <p>I've built <strong>real security tools</strong> — an Encryption App, a Steganography Detector, and
+            CyberGuard Password Analyzer. I use <strong>Wireshark, Wazuh, and Nmap</strong> to generate actual threat
+            analysis reports.</p>
+          <p>Currently deep-diving into <strong>SIEM platforms</strong> (learning Splunk) and <strong>digital
+              forensics</strong> with Autopsy and FTK Imager — tools used in real incident response scenarios.</p>
+          <p>I believe the best defenders think like attackers. That's the mindset I bring to every project and every
+            line of security analysis I write.</p>
+        </div>
+        <div class="stat-grid rv d1">
+          <div class="sc"><span class="sc-num" data-count="3">0</span>
+            <div class="sc-label">REAL PROJECTS</div>
+          </div>
+          <div class="sc"><span class="sc-num" data-count="8">0</span>
+            <div class="sc-label">TOOLS MASTERED</div>
+          </div>
+          <div class="sc"><span class="sc-num" data-count="4">0</span>
+            <div class="sc-label">PROG LANGUAGES</div>
+          </div>
+          <div class="sc"><span class="sc-num" data-count="2024">0</span>
+            <div class="sc-label">YEAR STARTED</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="sw">
+      <div class="sh rv">
+        <div class="stag">// CAPABILITIES</div>
+        <h2 class="st">SKILLS & <span class="acc">ARSENAL</span></h2>
+        <div class="sline"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skcat rv">
+          <div class="skcat-t">💻 Programming</div>
+          <div class="ski">
+            <div class="ski-row"><span class="ski-label">Python</span><span class="ski-pct">82%</span></div>
+            <div class="ski-bar">
+              <div class="ski-fill b" data-w="82"></div>
+            </div>
+          </div>
+          <div class="ski">
+            <div class="ski-row"><span class="ski-label">JavaScript</span><span class="ski-pct">70%</span></div>
+            <div class="ski-bar">
+              <div class="ski-fill b" data-w="70"></div>
+            </div>
+          </div>
+          <div class="ski">
+            <div class="ski-row"><span class="ski-label">Java</span><span class="ski-pct">65%</span></div>
+            <div class="ski-bar">
+              <div class="ski-fill b" data-w="65"></div>
+            </div>
+          </div>
+          <div class="ski">
+            <div class="ski-row"><span class="ski-label">C</span><span class="ski-pct">60%</span></div>
+            <div class="ski-bar">
+              <div class="ski-fill b" data-w="60"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skcat rv d1">
+          <div class="skcat-t">🛡️ Cybersecurity</div>
+          <div class="ski">
+            <div class="ski-row"><span class="ski-label">SOC Analysis</span><span class="ski-pct">75%</span></div>
+            <div class="ski-bar">
+              <div class="ski-fill g" data-w="75"></div>
+            </div>
+          </div>
+          <div class="ski">
+            <div class="ski-row"><span class="ski-label">SIEM / Splunk</span><span class="ski-pct">55%</span></div>
+            <div class="ski-bar">
+              <div class="ski-fill g" data-w="55"></div>
+            </div>
+          </div>
+          <div class="ski">
+            <div class="ski-row"><span class="ski-label">Threat Detection</span><span class="ski-pct">70%</span></div>
+            <div class="ski-bar">
+              <div class="ski-fill g" data-w="70"></div>
+            </div>
+          </div>
+          <div class="ski">
+            <div class="ski-row"><span class="ski-label">Digital Forensics</span><span class="ski-pct">65%</span></div>
+            <div class="ski-bar">
+              <div class="ski-fill g" data-w="65"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skcat rv d2">
+          <div class="skcat-t">🔧 Tools & Forensics</div>
+          <div class="chips">
+            <div class="chip">Wireshark</div>
+            <div class="chip">Wazuh</div>
+            <div class="chip">Nmap</div>
+            <div class="chip">Splunk ✦</div>
+            <div class="chip">Autopsy</div>
+            <div class="chip">FTK Imager</div>
+            <div class="chip">StegoPEG</div>
+            <div class="chip">Kali Linux</div>
+          </div>
+          <div style="margin-top:16px">
+            <div class="ski">
+              <div class="ski-row"><span class="ski-label">Network Analysis</span><span class="ski-pct">78%</span></div>
+              <div class="ski-bar">
+                <div class="ski-fill p" data-w="78"></div>
+              </div>
+            </div>
+            <div class="ski">
+              <div class="ski-row"><span class="ski-label">Forensics Tools</span><span class="ski-pct">67%</span></div>
+              <div class="ski-bar">
+                <div class="ski-fill p" data-w="67"></div>
+              </div>
+            </div>
+          </div>
+          <div style="font-family:var(--mono);font-size:10px;color:var(--t2);margin-top:10px">✦ Currently learning</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="sw">
+      <div class="sh rv">
+        <div class="stag">// REAL SECURITY TOOLS</div>
+        <h2 class="st">FEATURED <span class="acc">PROJECTS</span></h2>
+        <div class="sline"></div>
+      </div>
+      <div class="pg">
+        <div class="pc-card rv">
+          <div class="pc-num">01</div>
+          <div class="pc-icon">🔐</div>
+          <div class="pc-title">ENCRYPTION APP</div>
+          <p class="pc-desc">A full-featured encryption application implementing multiple cryptographic algorithms to
+            secure sensitive data. Supports symmetric and asymmetric encryption with a clean interface for practical
+            security use.</p>
+          <div class="pc-stack"><span class="stag2">Python</span><span class="stag2">Cryptography</span><span
+              class="stag2">AES</span><span class="stag2">RSA</span></div>
+          <div class="pc-links">
+            <a href="https://github.com/parag1020/encryption-app" target="_blank" class="pc-link main">⌥ GitHub</a>
+            <a href="https://github.com/parag1020/encryption-app" target="_blank" class="pc-link">↗ View Repo</a>
+          </div>
+        </div>
+        <div class="pc-card rv d1">
+          <div class="pc-num">02</div>
+          <div class="pc-icon">🕵️</div>
+          <div class="pc-title">STEGANOGRAPHY TOOL v1.0</div>
+          <p class="pc-desc">Advanced steganography detection and analysis tool for digital forensics. Capable of hiding
+            and extracting secret data within digital images using LSB encoding — a real-world forensics application.
+          </p>
+          <div class="pc-stack"><span class="stag2">Python</span><span class="stag2">PIL/Pillow</span><span
+              class="stag2">LSB Encoding</span><span class="stag2">StegoPEG</span></div>
+          <div class="pc-links">
+            <a href="https://github.com/parag1020/Steganography-Tool-v1.0.0" target="_blank" class="pc-link main">⌥
+              GitHub</a>
+            <a href="https://github.com/parag1020/Steganography-Tool-v1.0.0" target="_blank" class="pc-link">↗ View
+              Repo</a>
+          </div>
+        </div>
+        <div class="pc-card rv d2">
+          <div class="pc-num">03</div>
+          <div class="pc-icon">🔑</div>
+          <div class="pc-title">CYBERGUARD PASSWORD ANALYZER</div>
+          <p class="pc-desc">Real-time password strength analyzer with entropy scoring, pattern detection, and
+            dictionary attack simulation. Provides actionable feedback to improve password security — practical tool for
+            everyday users.</p>
+          <div class="pc-stack"><span class="stag2">Python</span><span class="stag2">Security Analysis</span><span
+              class="stag2">Regex</span><span class="stag2">Entropy Scoring</span></div>
+          <div class="pc-links">
+            <a href="https://github.com/parag1020/cyberguard-password-analyzer" target="_blank" class="pc-link main">⌥
+              GitHub</a>
+            <a href="https://github.com/parag1020/cyberguard-password-analyzer" target="_blank" class="pc-link">↗ View
+              Repo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GITHUB LIVE -->
+  <section id="github">
+    <div class="sw">
+      <div class="sh rv">
+        <div class="stag">// LIVE · GITHUB API</div>
+        <h2 class="st">GITHUB <span class="acc">REPOS</span></h2>
+        <div class="sline"></div>
+      </div>
+      <div id="repo-loader" class="rv"><span style="color:var(--ng)">$</span> curl
+        api.github.com/users/parag1020/repos...<span class="cb"></span></div>
+      <div id="repo-grid"></div>
+      <div style="text-align:center;margin-top:26px" class="rv">
+        <a href="https://github.com/parag1020" target="_blank" class="btn btn-s">↗ ALL REPOS ON GITHUB</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TERMINAL + SCAN -->
+  <section id="terminal-sec">
+    <div class="sw">
+      <div class="sh rv">
+        <div class="stag">// INTERACTIVE CLI</div>
+        <h2 class="st">CYBER <span class="acc">TERMINAL</span></h2>
+        <div class="sline"></div>
+      </div>
+      <div class="term-ui rv">
+        <div class="tui-hdr">
+          <div class="td r"></div>
+          <div class="td y"></div>
+          <div class="td g"></div>
+          <span>parag@paragcyber:~$ — interactive terminal</span>
+        </div>
+        <div id="term-out">
+          <div class="to res">Parag Patel Cyber Terminal v2.0 — Initialized</div>
+          <div class="to info">Type a command or click a button below.</div>
+          <div class="to info">Commands: help · about · skills · projects · contact · clear</div>
+        </div>
+        <div class="ti-row">
+          <span class="ti-prompt">parag@cyber:~$&nbsp;</span>
+          <input type="text" id="ti" placeholder="type command and press Enter..." autocomplete="off"
+            spellcheck="false" />
+        </div>
+        <div class="tcmds">
+          <button class="tcmd" onclick="runCmd('help')">help</button>
+          <button class="tcmd" onclick="runCmd('whoami')">whoami</button>
+          <button class="tcmd" onclick="runCmd('about')">about</button>
+          <button class="tcmd" onclick="runCmd('skills')">skills</button>
+          <button class="tcmd" onclick="runCmd('projects')">projects</button>
+          <button class="tcmd" onclick="runCmd('scan')">scan</button>
+          <button class="tcmd" onclick="runCmd('social')">social</button>
+          <button class="tcmd" onclick="runCmd('clear')">clear</button>
+        </div>
+      </div>
+      <div class="scan-ui rv">
+        <h3>⚡ CYBER SYSTEM SCANNER</h3>
+        <button id="scan-btn" onclick="runScan()">▶ INITIALIZE SCAN</button>
+        <div class="sbw" id="sbw">
+          <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--t2);margin-bottom:5px"><span
+              id="slabel">Scanning...</span><span id="spct">0%</span></div>
+          <div class="sbar">
+            <div class="sbf" id="sbf"></div>
+          </div>
+        </div>
+        <div id="scan-log"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section id="timeline">
+    <div class="sw">
+      <div class="sh rv">
+        <div class="stag">// MY JOURNEY</div>
+        <h2 class="st">CYBER <span class="acc">TIMELINE</span></h2>
+        <div class="sline"></div>
+      </div>
+      <div class="tl-wrap">
+        <div class="tl-item rv">
+          <div class="tl-date">2022–2023 — DISCOVERY</div>
+          <div class="tl-title">Found My Calling: Cybersecurity</div>
+          <div class="tl-org">Self-Learning · India</div>
+          <p class="tl-desc">Started exploring cybersecurity through YouTube, documentation, and online labs. First
+            hands-on experience with Kali Linux, basic networking, and ethical hacking fundamentals. The spark that
+            started everything.</p>
+        </div>
+        <div class="tl-item rv">
+          <div class="tl-date">2024 — FOUNDATION</div>
+          <div class="tl-title">Started Integrated M.Sc. in Cyber Security</div>
+          <div class="tl-org">Integrated M.Sc. Cyber Security · 2024–2029</div>
+          <p class="tl-desc">Enrolled with a clear goal: master cybersecurity end-to-end. Formal study of Python, Java,
+            C, and networking fundamentals. Set up a home lab with Wireshark, Wazuh, and Nmap for hands-on threat
+            analysis from day one.</p>
+        </div>
+        <div class="tl-item rv">
+          <div class="tl-date">2024 — BUILDER</div>
+          <div class="tl-title">Built Real Security Tools</div>
+          <div class="tl-org">GitHub: github.com/parag1020</div>
+          <p class="tl-desc">Created three real-world security tools: Encryption App, Steganography Tool v1.0, and
+            CyberGuard Password Analyzer. Generated actual security reports using Wireshark, Wazuh, and Nmap in lab
+            environments.</p>
+        </div>
+        <div class="tl-item rv">
+          <div class="tl-date">2024–2025 — PRESENT</div>
+          <div class="tl-title">SOC Analysis & Digital Forensics</div>
+          <div class="tl-org">Learning: Splunk · Autopsy · FTK Imager</div>
+          <p class="tl-desc">Deep-diving into SIEM platforms (Splunk), digital forensics workflows (Autopsy, FTK
+            Imager), and incident response. Actively building portfolio and sharpening threat detection skills for a SOC
+            Analyst career.</p>
+        </div>
+        <div class="tl-item rv">
+          <div class="tl-date">2025+ — THE MISSION</div>
+          <div class="tl-title">SOC Analyst Role & Certifications</div>
+          <div class="tl-org">Targets: CompTIA Security+ · CEH · BTL1</div>
+          <p class="tl-desc">Goal: land a SOC Analyst role, earn industry certifications, contribute to real-world
+            threat detection and incident response. Defending the digital world — that's the mission.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="sw">
+      <div class="sh rv">
+        <div class="stag">// LET'S TALK</div>
+        <h2 class="st">CONTACT <span class="acc">ME</span></h2>
+        <div class="sline"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="rv">
+          <p style="color:var(--t2);font-size:16px;line-height:1.85;margin-bottom:26px">Open to collaborations,
+            internships, security discussions, and SOC Analyst opportunities. I respond fast — drop a message.</p>
+          <a class="ci" onclick="copyEmail()">
+            <div class="ci-icon">✉</div>
+            <div>
+              <div>paragpateld1020@gmail.com</div>
+              <div style="font-size:10px;color:var(--ng);margin-top:2px">Click to copy</div>
+            </div>
+          </a>
+          <a class="ci" href="https://github.com/parag1020" target="_blank">
+            <div class="ci-icon">⌥</div>
+            <div>github.com/parag1020</div>
+          </a>
+          <a class="ci" href="https://www.linkedin.com/in/parag-patel-9593742a7" target="_blank">
+            <div class="ci-icon">in</div>
+            <div>linkedin.com/in/parag-patel-9593742a7</div>
+          </a>
+          <a class="ci">
+            <div class="ci-icon">📍</div>
+            <div>India 🇮🇳 · Open to Remote</div>
+          </a>
+          <div class="socials">
+            <a href="https://github.com/parag1020" target="_blank" class="soc">⌥ GitHub</a>
+            <a href="https://www.linkedin.com/in/parag-patel-9593742a7" target="_blank" class="soc">in LinkedIn</a>
+            <a href="https://wa.me/917623086306" target="_blank" class="soc wa">💬 WhatsApp</a>
+          </div>
+        </div>
+        <div class="rv d1">
+          <form class="cf" action="https://formspree.io/f/xkokogqy" method="POST">
+            <div class="fg"><label class="fl">Name</label><input type="text" class="fi" placeholder="Your Name"
+                id="cf-name" required /></div>
+            <div class="fg"><label class="fl">Email</label><input type="email" class="fi" placeholder="your@email.com"
+                id="cf-email" required /></div>
+            <div class="fg"><label class="fl">Subject</label><input type="text" class="fi"
+                placeholder="Internship / Collaboration / Chat..." id="cf-sub" /></div>
+            <div class="fg"><label class="fl">Message</label><textarea class="fi ta" placeholder="What's on your mind?"
+                id="cf-msg" required></textarea></div>
+            <div id="fs"></div>
+            <input type="hidden" name="_subject" value="New Message from Parag Cyber Portfolio">
+            <button type="submit" class="btn btn-p" style="align-self:flex-start">⚡ SEND MESSAGE</button>
+            <input type="hidden" name="_next" value="https://parag1020.github.io/portfolio/#contact">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="fl-logo">PARAG<em>CYBER</em></div>
+    <div class="fl-links">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+      <a href="#github">GitHub</a><a href="#timeline">Journey</a><a href="#contact">Contact</a>
+    </div>
+    <p class="fl-copy">© 2025 Parag Patel Cyber · Securing the Digital World · India 🇮🇳</p>
+  </footer>
+
+  <!-- Three.js CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js" defer></script>
+</body>
+
+</html>
