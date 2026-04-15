@@ -677,31 +677,28 @@
             <a href="https://wa.me/917623086306" target="_blank" class="soc wa">💬 WhatsApp</a>
           </div>
         </div>
-        <form id="contact-form" class="cf" action="https://formspree.io/f/xkokogqy" method="POST">
+ <form id="cform" class="cf" onsubmit="submitForm(event)">
   <div class="fg">
     <label class="fl">Name</label>
-    <input type="text" name="name" class="fi" placeholder="Your Name" required>
+    <input type="text" id="cf-name" name="name" class="fi" placeholder="Your Name" required>
   </div>
   <div class="fg">
     <label class="fl">Email</label>
-    <input type="email" name="email" class="fi" placeholder="your@email.com" required>
+    <input type="email" id="cf-email" name="email" class="fi" placeholder="your@email.com" required>
   </div>
   <div class="fg">
     <label class="fl">Subject</label>
-    <input type="text" name="subject" class="fi" placeholder="Internship / Collaboration / Chat...">
+    <input type="text" id="cf-sub" name="subject" class="fi" placeholder="Internship / Collaboration / Chat...">
   </div>
   <div class="fg">
     <label class="fl">Message</label>
-    <textarea name="message" class="fi ta" placeholder="What's on your mind?" required></textarea>
+    <textarea id="cf-msg" name="message" class="fi ta" placeholder="What's on your mind?" required></textarea>
   </div>
-  <!-- Subject for email -->
-  <input type="hidden" name="_subject" value="New Message from Parag Cyber Portfolio">
-  <!-- Redirect after submit -->
-  <input type="hidden" name="_next" value="https://parag1020.github.io/portfolio/#contact">
-  <button type="submit" class="btn btn-p" style="align-self:flex-start; margin-top:10px;">
+  <button type="submit" class="btn btn-p" style="margin-top:10px;">
     ⚡ SEND MESSAGE
   </button>
-          <p id="success-msg" style="display:none; color:green;">Message sent successfully!</p>
+  <!-- Status Message -->
+  <p id="fs" style="display:none; margin-top:10px;"></p>
 </form>
         </div>
       </div>
