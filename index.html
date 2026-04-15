@@ -677,19 +677,31 @@
             <a href="https://wa.me/917623086306" target="_blank" class="soc wa">💬 WhatsApp</a>
           </div>
         </div>
-        <div class="rv d1">
-          <form class="cf" action="https://formspree.io/f/xkokogqy" method="POST">
-            <div class="fg"><label class="fl">Name</label><input type="text" class="fi" placeholder="Your Name"
-                id="cf-name" required /></div>
-            <div class="fg"><label class="fl">Email</label><input type="email" class="fi" placeholder="your@email.com"
-                id="cf-email" required /></div>
-            <div class="fg"><label class="fl">Subject</label><input type="text" class="fi"
-                placeholder="Internship / Collaboration / Chat..." id="cf-sub" /></div>
-            <div class="fg"><label class="fl">Message</label><textarea class="fi ta" placeholder="What's on your mind?"
-                id="cf-msg" required></textarea></div>
-            <div id="fs"></div>
-            <input type="hidden" name="_subject" value="New Message from Parag Cyber Portfolio">
-            <button type="submit" class="btn btn-p" style="align-self:flex-start">⚡ SEND MESSAGE</button>
+        <form class="cf" action="https://formspree.io/f/xkokogqy" method="POST">
+  <div class="fg">
+    <label class="fl">Name</label>
+    <input type="text" name="name" class="fi" placeholder="Your Name" required>
+  </div>
+  <div class="fg">
+    <label class="fl">Email</label>
+    <input type="email" name="email" class="fi" placeholder="your@email.com" required>
+  </div>
+  <div class="fg">
+    <label class="fl">Subject</label>
+    <input type="text" name="subject" class="fi" placeholder="Internship / Collaboration / Chat...">
+  </div>
+  <div class="fg">
+    <label class="fl">Message</label>
+    <textarea name="message" class="fi ta" placeholder="What's on your mind?" required></textarea>
+  </div>
+  <!-- Subject for email -->
+  <input type="hidden" name="_subject" value="New Message from Parag Cyber Portfolio">
+  <!-- Redirect after submit -->
+  <input type="hidden" name="_next" value="https://parag1020.github.io/portfolio/#contact">
+  <button type="submit" class="btn btn-p" style="align-self:flex-start; margin-top:10px;">
+    ⚡ SEND MESSAGE
+  </button>
+</form>
             <input type="hidden" name="_next" value="https://parag1020.github.io/portfolio/#contact">
           </form>
         </div>
